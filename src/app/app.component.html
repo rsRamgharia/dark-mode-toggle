@@ -1,0 +1,30 @@
+<div class="container">
+  <mat-card>
+    <div class="toggle">
+      <mat-slide-toggle [(ngModel)]="isChecked" (change)="changed($event)">
+        <mat-icon>{{ mode }}</mat-icon>
+      </mat-slide-toggle>
+    </div>
+    <mat-card-title> Manage your freelancer business with us! </mat-card-title>
+    <mat-card-subtitle>
+      Takes less than 10 min to fill out all the information needed to register
+      your business
+    </mat-card-subtitle>
+    <form>
+      <mat-form-field>
+        <input matInput placeholder="Email" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Full name" />
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="password" placeholder="Password" />
+      </mat-form-field>
+      <button mat-raised-button color="primary">Get Started</button>
+    </form>
+    <mat-card-subtitle>
+      By signing up you are aggreed to our
+      <strong style="letter-spacing: 1px">Terms and conditions</strong>
+    </mat-card-subtitle>
+  </mat-card>
+</div>
