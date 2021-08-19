@@ -1,5 +1,7 @@
 # DarkMode
 
+![image](https://cdn.dribbble.com/users/8774696/screenshots/16273387/media/2af9e59e5735385f8548f07f2045846d.jpg)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
 ## Development server
